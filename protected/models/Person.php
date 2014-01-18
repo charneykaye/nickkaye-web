@@ -5,14 +5,15 @@
  * All Rights Reserved
  *
  */
-class Person
+include_once(__DIR__.'/_base/Model.php');
+class Person extends Model
 {
     /** @var String */
     public $url;
     /** @var String */
-    public $name;
-    /** @var String */
     public $title;
+    /** @var String */
+    public $description;
     /** @var String */
     public $addressOne;
     /** @var String */
@@ -20,31 +21,16 @@ class Person
     /** @var String */
     public $twitterHandle;
     /** @var String */
+    public $gPlusPublisher;
+    /** @var String */
     public $urlFacebook;
-    /** @var Array */
-    public $bioParagraphs;
     /** @var String */
     public $filenamePortrait;
 
-
-    /**
-     * @param array $data
-     */
-    public function __construct($data = null)
-    {
-        if ($data !== null)
-            $this->setAttributes($data);
-    }
-
-    /**
-     * @param array $data
-     */
-    public function setAttributes($data)
-    {
-        foreach ($data as $key => $value)
-            if (property_exists($this, $key))
-                $this->$key = $value;
-    }
+    /** @var Array */
+    public $bioParagraphs;
+    /** @var GigGroup[] */
+    public $gigGroups;
 
     /**
      * @return string

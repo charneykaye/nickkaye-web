@@ -7,6 +7,6 @@
 include_once(__DIR__.'/_base/Model.php');
 class GigGroup extends Model
 {
-    /** @var Gig[] */
+   /** @var Gig[] */
     public $gigs;
 }

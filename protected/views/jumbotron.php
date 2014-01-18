@@ -7,7 +7,7 @@
  */
 ?>
 <!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="jumbotron">
+<div id="jumbotron" class="jumbotron">
     <div class="container">
         <div class="row">
             <div class="col-md-3">
@@ -16,14 +16,11 @@
                 </h1>
             </div>
             <div class="col-md-9">
-                <h1><?php echo $person->name ?></h1>
+                <h1><?php echo $person->name; ?></h1>
 
-                <h2><?php echo $person->title ?></h2>
+                <h2><?php echo $person->title; ?></h2>
 
-                <?php foreach ($person->bioParagraphs as $p): ?>
-                    <hr/>
-                    <p><?php echo $p; ?></p>
-                <?php endforeach; ?>
+                <?php echo $person->html; ?>
 
             </div>
         </div>

@@ -32,16 +32,16 @@ $ga_account = "UA-43069052-1";
     <meta name="description" content="<?php echo $person->description; ?>"/>
     <link rel="canonical" href="<?php echo $person->url; ?>"/>
     <link rel="publisher" href="<?php echo $person->gPlusPublisher; ?>"/>
-    <meta property='og:locale' content='en_US'/>
-    <meta property='og:type' content='article'/>
-    <meta property='og:title' content="<?php echo $person->title; ?>"/>
-    <meta property='og:description' content='<?php echo $person->description; ?>'/>
-    <meta property='og:url' content='<?php echo $person->url; ?>'/>
-    <meta property='og:site_name' content='<?php echo $person->name; ?>'/>
-    <meta property='article:author' content='<?php echo $person->urlFacebook; ?>'/>
-    <meta property='article:publisher' content='<?php echo $person->urlFacebook; ?>'/>
-    <meta property='fb:admins' content='518634848'/>
-    <meta property='og:image' content="<?php echo $person->urlPortrait(); ?>"/>
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="<?php echo $person->title; ?>"/>
+    <meta property="og:description" content="<?php echo $person->description; ?>"/>
+    <meta property="og:url" content="<?php echo $person->url; ?>"/>
+    <meta property="og:site_name" content="<?php echo $person->name; ?>"/>
+    <meta property="article:author" content="<?php echo $person->urlFacebook; ?>"/>
+    <meta property="article:publisher" content="<?php echo $person->urlFacebook; ?>"/>
+    <meta property="fb:admins" content="518634848"/>
+    <meta property="og:image" content="<?php echo $person->urlPortrait(); ?>"/>
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@<?php echo $person->twitterHandle; ?>"/>
     <meta name="twitter:domain" content="<?php echo $person->name; ?>"/>

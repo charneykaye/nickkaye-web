@@ -8,6 +8,8 @@ class Model {
     public $slug;
     /** @var string */
     public $name;
+    /** @var String */
+    public $html;
 
     /**
      * @param array $data

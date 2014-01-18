@@ -27,8 +27,6 @@ class Person extends Model
     /** @var String */
     public $filenamePortrait;
 
-    /** @var Array */
-    public $bioParagraphs;
     /** @var GigGroup[] */
     public $gigGroups;
 

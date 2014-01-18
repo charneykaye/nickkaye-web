@@ -19,7 +19,11 @@ h1, h2, h3, h4, h5, h6, p {
 .jumbotron {
     padding: 20px 0 80px 0;
     background-color: #333;
-    color: #eee;
+}
+
+.jumbotron,
+.jumbotron a {
+    color: #d0d0d0;
 }
 
 .jumbotron p {
@@ -33,6 +37,14 @@ h1, h2, h3, h4, h5, h6, p {
 
 .jumbotron img {
     border: 2px solid #222;
+}
+
+.jumbotron a {
+    font-style: italic;
+}
+
+.jumbotron a:hover {
+    color: #fff;
 }
 
 /* ==========================================================================

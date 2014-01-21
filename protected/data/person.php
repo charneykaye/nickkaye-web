@@ -6,7 +6,7 @@
 return array(
     'name' => "Nick Kaye",
     'title' => "Writer, Maker & Software Engineer",
-    'description' => "Writer, Maker & Software Engineer.  I've been programming since 1984, before I could walk.",
+    'description' => "Hello world!  My name is Nick Kaye.  All my life I've been studying machines, taking them apart and building new machines to solve new problems.",
     'filenamePortrait' => 'Nick-Kaye-Founder-and-President-Outright-Mental-Inc.jpg',
     'addressOne' => "568 Broadway, 11th Fl",
     'addressTwo' => "New York, NY 10012",

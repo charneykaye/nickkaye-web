@@ -28,7 +28,7 @@ $ga_account = "UA-43069052-1";
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title><?php echo $person->name; ?>, <?php echo $person->title; ?></title>
+    <title><?php echo $person->name; ?>: <?php echo $person->title; ?></title>
     <meta name="description" content="<?php echo $person->description; ?>"/>
     <link rel="canonical" href="<?php echo $person->url; ?>"/>
     <link rel="publisher" href="<?php echo $person->gPlusPublisher; ?>"/>

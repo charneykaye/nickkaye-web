@@ -67,5 +67,12 @@ return array(
                     'year' => '201',
                 )),
             )
-        )))
+        )),
+		new GigGroup(array(
+            'slug' => 'contact',
+            'name' => 'Contact',
+            'html' => '<p>hello [at] nickkaye [dot] com</p>',
+            'gigs' => array()
+        )),
+	)
 );
